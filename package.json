@@ -1,0 +1,23 @@
+{
+  "name": "rss",
+  "version": "1.0.0",
+  "description": "Upwork Job Posts to the Discord",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "Upwork",
+    "Job",
+    "Posts"
+  ],
+  "author": "Muhammad Qasim",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "readline-sync": "^1.4.10",
+    "rss-parser": "^3.12.0"
+  }
+}
